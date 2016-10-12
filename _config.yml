@@ -1,0 +1,37 @@
+# Site settings
+name: Loach's Blog
+email: 66615041@qq.com
+author: gswd
+url: http://gswd.github.io
+resume_site: http://gswd.github.io
+github: https://github.com/gswd
+baseurl: ""
+description: Actually, less is more!
+meta_description: 李浩;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: luoyan35714
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+gems: [jekyll-paginate]
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : gswd
+    disqus :
+        short_name : gswd
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
